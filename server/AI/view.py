@@ -12,3 +12,10 @@ def asr():
     rsp = controller.asr().pop()
 
     return rsp
+
+
+@blueprint.route('/online_asr')
+def online_asr():
+    rsp = controller.online_asr().pop()
+
+    return rsp
