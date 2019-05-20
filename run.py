@@ -1,5 +1,7 @@
 # -*- coding: utf8 -*-
 
+import click
+
 from server.core import create_app
 
 app = create_app()
